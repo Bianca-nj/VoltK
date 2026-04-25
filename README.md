@@ -22,13 +22,13 @@ payment activity through a dedicated dashboard.
 - View and filter all payment records by port
 - Direct link to the user page for preview
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript, Leaflet.js (interactive maps)
 - **Backend:** Node.js, Express.js
 - **Database:** MySQL (via XAMPP)
 - **Libraries:** express-session, mysql2, cors, dotenv, body-parser
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js installed
@@ -72,29 +72,27 @@ payment activity through a dedicated dashboard.
    - User page: `http://localhost:5000/index.html`
    - Admin login: `http://localhost:5000/login.html`
 
-## 📂 Project Structure
+## Project Structure
 - `server.js` — Main server and API routes
 - `public/`
   - `login.html` — Admin login page
   - `admin.html` — Admin dashboard (ports, payments, map)
   - `index.html` — User-facing station search page
 
-## 🔐 Admin Access
+## Admin Access
 Register your admin credentials in the `.env` file. These are never 
 stored in the codebase for security.
 
-## 📌 Notes
+##  Notes
 - Make sure XAMPP is running before starting the server
 - Ports must be marked **active** for users to select them
 - GPS coordinates can be set by clicking directly on the map when adding a port
 
-## ✨ Future Improvements
+##  Future Improvements
 - M-Pesa payment integration
 - Real-time port availability updates
 - User accounts and charging history
 - Mobile app version
 - SMS notifications when charging is complete
 
-## 👩‍💻 Author
-Bianca Njeri
 
